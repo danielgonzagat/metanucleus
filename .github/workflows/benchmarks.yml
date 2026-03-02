@@ -26,7 +26,7 @@ jobs:
             --max-peak-mib 2.0 \
             > benchmark-report.txt
       - name: Upload benchmark report
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: benchmark-report
           path: benchmark-report.txt
